@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:background="@color/backgroundWhite"
+    tools:context="com.example.mohamedabdelaziz.marketstore.AddCommnet">
+
+
+    <EditText
+        android:layout_width="160dp"
+        android:padding="10dp"
+        android:id="@+id/comm"
+        android:contentDescription="@string/user_comment"
+        android:textColor="#008"
+        android:layout_height="50dp" />
+        <Button
+        android:id="@+id/butt"
+            android:layout_width="50dp"
+            android:padding="10dp"
+            android:contentDescription="@string/set_comment"
+            android:background="@android:drawable/ic_menu_send"
+            android:layout_height="50dp" />
+
+
+</LinearLayout>
